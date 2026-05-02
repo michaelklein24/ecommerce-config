@@ -1,2 +1,6 @@
-server:
-  port: 8082
+ecommerce:
+  auth:
+    jwt:
+      secret: "dqK45k3b2qKwHgaiUy7kc8ZzVi9gNYNZFECvb1grmvF"
+      expiration:
+        enabled: true

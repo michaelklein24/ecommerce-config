@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+ecommerce:
+  auth:
+    jwt:
+      expiration:
+        DOC_enabled: "Determines whether JWT tokens should expire or not"
+        enabled: true
+        DOC_expirationSecs: "600"
+        expirationSecs: "600"
